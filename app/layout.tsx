@@ -4,7 +4,7 @@ import { Lexend } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-// <CHANGE> Updated font to Lexend for modern, classy aesthetic
+// Updated font to Lexend for modern, classy aesthetic
 const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend" })
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/images/illuminate-1-removebg-preview.png",
   },
 }
 
